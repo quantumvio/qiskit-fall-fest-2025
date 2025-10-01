@@ -9,7 +9,7 @@ These notebooks are designed for the Qiskit Fall Fest at the University of Melbo
   - Workshop I – Starting Coding with Qiskit 2.x
   - Workshop II – Real-World Use Cases with Qiskit
 - **Day 2 (In-person):**
-  - Hackathon – Build and showcase your solution (TBD)
+  - Hackathon – Build and showcase your solution (TBA)
 
 ## ⬇️ Clone this repository
 
@@ -36,16 +36,16 @@ Create and activate a Python environment:
 
 **Using venv:**
 ```bash
-python -m venv ioq
-source ioq/bin/activate  # macOS/Linux
+python -m venv qff
+source qff/bin/activate  # macOS/Linux
 # or
-ioq\Scripts\activate     # Windows
+qff\Scripts\activate     # Windows
 ```
 
 **Using Conda:**
 ```bash
-conda create -n ioq python=3.9
-conda activate ioq
+conda create -n qff python=3.12
+conda activate qff
 ```
 
 Recommended IDEs: [Visual Studio Code](https://code.visualstudio.com/)
