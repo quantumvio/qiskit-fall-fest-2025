@@ -1,0 +1,22 @@
+conda create -n qhack1 python=3.11 -y
+conda activate qhack1
+
+conda install -y jupyter ipykernel
+
+pip install "qiskit>=1.2" "qiskit-aer>=0.15" "qiskit-algorithms>=0.3.1"
+
+pip install matplotlib numpy scipy seaborn pylatexenc
+
+python -m ipykernel install --user --name qhack1 --display-name "Python (qhack1)"
+
+
+#Optional for Quantum chemistry
+
+pip install "qiskit-nature>=0.7" 
+
+#FOR MAC/LINUX USERS
+pip install pyscf
+
+#FOR WINDOWS USERS
+conda install -c conda-forge psi4 -y
+
